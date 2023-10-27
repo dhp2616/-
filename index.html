@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>index page</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EHBSTEE5B0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-EHBSTEE5B0');
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
 </head>
+
 <body>
-    <div id="navbar">
-        <a href="https://dhp2616.github.io/-/">Home</a>
-        <a href="aboutMe.html">About</a>
-        <a href="https://mattm401.github.io/">Github Page</a>
-        <a href="https://rohanyar.github.io/">Previous</a>
-        <a href="https://mbarocho.github.io/">Next</a>
-        <a href="contactMe.html">Contact</a>
-    </div>
+    <nav>
+        <div class="left-menu">
+            <a href="https://dhp2616.github.io/-/">Home</a>
+            <a href="pages/aboutMe.html">About</a>
+            <a href="pages/contactMe.html">Contact</a>
+            <a href="pages/resume.html">Resume</a>
+            <a href="pages/projects.html">Projects</a>
+        </div>
+        <div class="right-menu">
+            <div class="dropdown">
+                <button class="dropbtn">Class Links</button>
+                <div class="dropdown-content">
+                    <a href="https://rohanyar.github.io/">Previous</a>
+                    <a href="https://mbarocho.github.io/">Next</a>
+                    <a href="https://mattm401.github.io/">Github Page</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <div id="main-div">
         <div id="center">
             <h1>Hello! my name is Dhruv Patel</h1>
@@ -22,8 +46,28 @@
             <img src="me_advanced_web_pic.JPG" alt="A picture of me for the About Me section"
                 style="max-height: 650px; border-radius: 30px;">
         </div>
+        <div>
+            <p>I am currently pursuing a bachelors in compuer science from the University of Delaware. After graduation
+                I plan on finding work in tech hopefully. I am willing to do full stack if needed. Hopefully I can live
+                in a city as I'd like to do so in my 20s.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="social-icons">
+            <a href="https://github.com/dhp2616" target="_blank">
+                <img src="images/github.png" alt="GitHub" width="32" height="32">
+            </a>
+            <a href="https://www.linkedin.com/in/dhruv-patel-4b710b276/" target="_blank">
+                <img src="images/linkedin.png" alt="LinkedIn" width="32" height="32">
+            </a>
+            <a href="https://discord.gg/WmHMhQHx" target="_blank">
+                <img src="images/discord.png" alt="Discord" width="32" height="32">
+            </a>
+        </div>
+        <div>
+            <p>Contact Me: Dhp@udel.edu</p>
+        </div>
     </div>
 </body>
+
 </html>
-
-

@@ -1,0 +1,41 @@
+.centered-header {
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    margin: 20px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.project-item img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.project-item h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.project-item p {
+    font-size: 1rem;
+}
+
+.project-item a {
+    text-decoration: none;
+    color: #007BFF;
+}
+a {
+    color: black;
+}
+

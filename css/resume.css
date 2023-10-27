@@ -1,0 +1,14 @@
+.centered-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: white;
+}
+
+.centered-text a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}

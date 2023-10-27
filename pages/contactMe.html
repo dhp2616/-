@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="../css/contactMe.css">
+    <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("2AbmFowrKf0LRhz3g");
+        })();
+    </script>
+</head>
+
+<body>
+    <nav>
+        <div class="left-menu">
+            <a href="https://dhp2616.github.io/-/">Home</a>
+            <a href="aboutMe.html">About</a>
+            <a href="#" class="right-link">Contact</a>
+            <a href="resume.html">Resume</a>
+            <a href="projects.html">Projects</a>
+        </div>
+        <div class="right-menu">
+            <div class="dropdown">
+                <button class="dropbtn">Class Links</button>
+                <div class="dropdown-content">
+                    <a href="https://rohanyar.github.io/">Previous</a>
+                    <a href="https://mbarocho.github.io/">Next</a>
+                    <a href="https://mattm401.github.io/">Github Page</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <h1>Contact Me</h1>
+    <div class = "container">
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="user_lname">Last Name</label>
+                <input type="text" id="user_lname" name="user_lname" required>
+            </div>
+            <div class="form-group">
+                <label for="user_fname">First Name</label>
+                <input type="text" id="user_fname" name="user_fname" required>
+            </div>
+            <div class="form-group">
+                <label for="user_email">Email Address</label>
+                <input type="email" id="user_email" name="user_email" required>
+            </div>
+            <div class="form-group">
+                <label for="user_phone">Phone Number</label>
+                <input type="tel" id="user_phone" name="user_phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <small>format: 123-456-7890</small>
+            </div>
+            <div class="form-group">
+                <label for="user_message">Message</label>
+                <textarea id="user_message" name="user_message" rows="4" required></textarea>
+            </div>
+            <div id="error-message" class="error-message"></div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="footer">
+        <div class="social-icons">
+            <a href="https://github.com/dhp2616" target="_blank">
+                <img src="../images/github.png" alt="GitHub" width="32" height="32">
+            </a>
+            <a href="https://www.linkedin.com/in/dhruv-patel-4b710b276/" target="_blank">
+                <img src="../images/linkedin.png" alt="LinkedIn" width="32" height="32">
+            </a>
+            <a href="https://discord.gg/WmHMhQHx" target="_blank">
+                <img src="../images/discord.png" alt="Discord" width="32" height="32">
+            </a>
+        </div>
+        <div>
+            <p>Contact Me: Dhp@udel.edu</p>
+        </div>
+    </div>
+    <script src="../scripts/contactMe.js"></script>
+</body>
+
+</html>
